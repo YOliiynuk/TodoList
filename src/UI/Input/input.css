@@ -1,0 +1,22 @@
+.input{
+    background: #262626;
+    border: 1px solid #0D0D0D;
+    border-radius: 8px;
+    font-style: 16px;
+    line-height: 140%;
+    color: #808080;
+    outline: none;
+    padding: 16px;
+    min-width: 620px;
+}
+
+.input:focus{
+    border: 1px solid #5E60CE;
+    transition: 0.2s ease;
+}
+::placeholder{
+    font-style: 16px;
+    line-height: 140%;
+    color: #808080;
+}
+

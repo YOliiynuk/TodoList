@@ -1,10 +1,10 @@
 import React from 'react';
-import './Logo.css;
-
+import './logo.css'
+import logo from './../../assets/Logo.png'
 const Logo = () => {
     return (
-        <div>
-        Logo
+        <div className="logo">
+            <img src={logo} alt="logo"/>
         </div>
     );
 };

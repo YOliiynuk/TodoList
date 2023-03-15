@@ -1,0 +1,33 @@
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #1e6f9f;
+    border-radius: 8px;
+    border: 1px solid #1e6f9f;
+    outline: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    padding: 16px;
+}
+.btn:hover{
+    background: #4EA8DE;
+    transition: 0.5s ease;
+}
+.deleteBtn{
+    position: absolute;
+    right: 16px;
+    cursor: pointer;
+    color:#808080 ;
+}
+.deleteBtn:hover{
+    background: #333333;
+    transform: scale(1.1);
+    border-radius: 4px;
+    cursor: pointer;
+    color: #e25858;
+    transition: 0.3s all;
+}
+
